@@ -1,6 +1,9 @@
 // next.config.js
+const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
-  basePath: process.env.NODE_ENV === 'production' ? '/portfolio-tom-ruiz' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio-tom-ruiz/' : '',
-};
+  assetPrefix: isProd ? '/piklaklonis/' : '',
+  images: {
+    unoptimized: true,
+  },
+}
