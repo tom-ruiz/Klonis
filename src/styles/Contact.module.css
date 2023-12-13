@@ -1,0 +1,36 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 72vh;
+    gap: 15px;
+}
+
+.contact h1 {
+    font-size: 48px;
+}
+
+.contact a {
+    font-size: 34px;
+    font-weight: 400;
+    color: #252422;
+}
+
+.contact p {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .contact a {
+        font-size: 25px;
+    }
+    .contact p {
+        font-size: 25px;
+    }
+
+    .contact h1 {
+        font-size: 35px;
+    }
+}

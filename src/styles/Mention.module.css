@@ -1,0 +1,6 @@
+.mention{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    gap: 15px;
+}

@@ -1,0 +1,148 @@
+.project {
+    height: fit-content;
+    padding: 0 6% 6% 6%;
+}
+
+.project h3 {
+    font-size: 58px;
+    font-weight: 700;
+    margin-top: .5em;
+}
+
+.wrapper {
+    margin: 3em auto auto auto;
+    width: 90%;
+}
+
+.cards {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cards li {
+    border: 2px solid #EB5E28;
+    border-radius: 5px;
+    background-color: #FFFCF2;
+    color: #0F5971;
+    flex: 1 1 200px;
+    transition: box-shadow 0.6s;
+}
+
+.cards li:hover {
+    box-shadow: 5px 8px 12px 1px rgba(0, 0, 0, 0.49);
+}
+
+.cards li img {
+    object-fit: cover;
+}
+
+.cards h2 {
+    background-color: #EB5E28;
+    color: #FFFCF2;
+    margin: 0;
+    padding: 10px;
+}
+
+.cards p {
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.flex li {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-columns: repeat(auto-fill, minmax(200px 1fr));*/
+    grid-gap: 20px;
+}
+
+.flipCard {
+    background-color: transparent;
+    height: 300px;
+
+}
+
+.flipCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+    .flipCard:hover .flipCardInner {
+        transform: rotateY(180deg);
+    }
+}
+
+
+.flipCardFront,
+.flipCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flipCardFront {
+    background-color: #bbb;
+    color: black;
+}
+
+.flipCard img {
+    width: 100%;
+    height: 300px;
+}
+
+.flipCardBack {
+    background-color: #FFFCF2;
+    color: #0F5971;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.turnButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #3D94B2;
+    position: absolute;
+    z-index: 1;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    color: #FFFCF2;
+    transition: background-color .3s;
+}
+
+.turnButton:active{
+    background-color: #0F5971;
+    border: 1px solid rgb(50, 50, 50);
+
+}
+
+@media screen and (min-width: 768px) {
+    .turnButton {
+        display: none;
+    }
+}
+
+.rotate {
+    transform: rotateY(180deg);
+}

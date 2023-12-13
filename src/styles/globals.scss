@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import "./variables.scss";
+
+@font-face {
+  font-family: Jost;
+  src: url('../assets/Jost/Jost-VariableFont_wght.ttf');
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  font-family: "Jost";
+  background-color: $color-white;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  color: $color-orange;
+}
+
+h3 {
+  font-weight: 500;
+  color: $color-blue-sry;
+  @media screen and (min-width: 768px) {
+    font-size: $font-title-sm;
+  }
+}
+
+h4 {
+  font-weight: 400;
+  color: $color-blue-sry;
+}
+
+p {
+  font-weight: 300;
+  font-size: 20px;
+  @media screen and (max-width: 768px) {
+    font-size: $font-p-sm;
+  }
+}
+
+.navmain {
+  height: fit-content;
+  padding: 1.5rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color: $color-white;
+}
+
+.responsiveMenu {
+  height: 50px;
+  width: 50px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-orange;
+  border: none;
+  border-radius: 8px;
+  color: $color-white;
+  font-size: 25px;
+  cursor: pointer;
+  transition: background-color .5s;
+
+  &:active {
+    background-color: $color-orange-sry;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 3rem 5rem 0 5rem;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    z-index: 10000;
+    background-color: white;
+    padding: 3rem 5rem;
+    display: none;
+  }
+}
+
+.menuOpen {
+  display: flex;
+}
+
+.bgwhite {
+  background-color: white;
+}
+
+.accueilName {
+  display: none;
+}
+
+.accueilVisible {
+  display: block;
+}
+
+.active {
+  border-bottom: 1px solid $color-blue-sry;
+}
+
+
+nav a {
+  font-size: 28px;
+  text-decoration: none;
+  color: $color-black;
+  display: flex;
+
+}
+
+
+nav a:first-child {
+  margin-right: auto;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+nav a:not(:first-child) {
+  transition: padding-bottom 0.2s;
+}
+
+nav a:not(:first-child):hover {
+  color: $color-blue-sry;
+  padding-bottom: 10px;
+}
+
+nav a:last-child {
+  background-color: $color-orange;
+  padding: 10px 0px;
+  color: $color-white;
+  border-radius: 8px;
+  width: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 0.2s;
+}
+
+nav a:last-child:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: $color-white;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  background-color: $color-grey-dark;
+  height: 5rem;
+  color: $color-white;
+  gap: 10%;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 5rem;
+  width: fit-content;
+  outline: none;
+  text-decoration: none;
+  color: $color-white;
+
+  &:first-child {
+    color: $color-blue-sry;
+  }
+
+  &:last-child {
+    color: $color-orange;
+  }
+}
+
+.home {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.home p {
+  font-size: 30px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper .dynamic-txts {
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+
+.dynamic-txts li {
+  list-style: none;
+  color: $color-orange;
+  font-size: 60px;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+
+.dynamic-txts li span {
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+  color: $color-blue-sry;
+  user-select: none;
+}
+
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #FFFCF2;
+  border-left: 2px solid $color-blue-sry;
+  animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+
+// .content {
+//   position: absolute;
+//   top: 50%;
+//   left: 19%;
+//   transform: translate(-50%, -50%);
+//   height: 160px;
+//   overflow: hidden;
+//   font-family: 'Lato', sans-serif;
+//   font-size: 35px;
+//   line-height: 40px;
+//   color: #ecf0f1;
+
+//   &__container {
+//     font-weight: 600;
+//     overflow: hidden;
+//     height: 40px;
+//     padding: 0 40px;
+
+//     &:before {
+//       content: '[';
+//       left: 0;
+//     }
+
+//     &:after {
+//       content: ']';
+//       position: absolute;
+//       right: 0;
+//     }
+
+//     &:after,
+//     &:before {
+//       position: absolute;
+//       top: 0;
+
+//       color: $color-grey-dark;
+//       font-size: 42px;
+//       line-height: 40px;
+
+//       -webkit-animation-name: opacity;
+//       -webkit-animation-duration: 1s;
+//       -webkit-animation-iteration-count: infinite;
+//       animation-name: opacity;
+//       animation-duration: 1s;
+//       animation-iteration-count: infinite;
+//     }
+
+//     &__text {
+//       display: inline;
+//       float: left;
+//       margin: 0;
+//     }
+
+//     &__list {
+//       margin-top: 0;
+//       text-align: left;
+//       list-style: none;
+//       -webkit-animation-name: change;
+//       -webkit-animation-duration: 8s;
+//       -webkit-animation-iteration-count: infinite;
+//       animation-name: change;
+//       animation-duration: 8s;
+//       animation-iteration-count: infinite;
+
+//       &__item {
+//         line-height: 40px;
+//         margin: 0;
+//         color: $color-blue-sry;
+//         font-weight: 400;
+//       }
+//     }
+//   }
+// }
+
+// @keyframes opacity {
+
+//   0%,
+//   100% {
+//     opacity: 0;
+//   }
+
+//   50% {
+//     opacity: 1;
+//   }
+// }
+
+// @keyframes change {
+
+//   0%,
+//   12.66%,
+//   100% {
+//     transform: translate3d(0, 0, 0);
+//   }
+
+//   16.66%,
+//   29.32%,
+//   83.3%,
+//   95.96% {
+//     transform: translate3d(0, -25%, 0);
+//   }
+
+//   33.32%,
+//   45.98% {
+//     transform: translate3d(0, -50%, 0);
+//   }
+
+//   49.98%,
+//   62.64%,
+//   66.64%,
+//   79.3% {
+//     transform: translate3d(0, -75%, 0);
+//   }
+// }
