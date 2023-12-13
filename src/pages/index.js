@@ -26,7 +26,7 @@ export default function Home() {
         <Navbar />
         <section className={styles.home}>
           <h1 data-aos="fade-right" data-aos-duration="1000">
-            Tom Ruiz
+            Tom & Louis
           </h1>
           <div className="wrapper">
             <ul className="dynamic-txts">

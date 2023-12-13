@@ -21,7 +21,7 @@
 }
 
 .cards li {
-    border: 2px solid #EB5E28;
+    border: 2px solid #3D94B2;
     border-radius: 5px;
     background-color: #FFFCF2;
     color: #0F5971;
@@ -38,7 +38,7 @@
 }
 
 .cards h2 {
-    background-color: #EB5E28;
+    background-color: #3D94B2;
     color: #FFFCF2;
     margin: 0;
     padding: 10px;

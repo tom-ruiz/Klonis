@@ -19,7 +19,8 @@ export default function PageInfo() {
     <>
       <Navbar />
       <section className={styles.main}>
-        <h3>Salut ! 😁</h3>
+        <h3>Tom</h3>
+        <Image src={guitare} alt="guitare" className={styles.guitare}/>
         <p data-aos="fade-up" data-aos-duration="1000">
           Moi c&apos;est Tom, j&apos;ai 23 ans et je suis un{" "}
           <span>développeur web front-end</span> et <span>intégrateur web</span>{" "}
@@ -31,7 +32,7 @@ export default function PageInfo() {
           expériences utilisateur. En plus de ça, je suis également passionné
           par la musique 🎶, l&apos;astronomie 🚀 et l&apos;art 🎨.
         </p>
-        <h3>🎸 En parlant de musique</h3>
+        <h3>Louis</h3>
         <div
           className={styles.content}
           data-aos="fade-up"
@@ -39,42 +40,19 @@ export default function PageInfo() {
         >
           <Image src={guitare} alt="guitare" className={styles.guitare}/>
           <p>
-            Je suis un multi-instrumentiste passionné et j&apos;aime jouer
-            toutes sortes de genres de musique, du metal au rap en passant par
-            le jazz, je passe mes journées à découvrir de nouveaux styles de
-            musique. Depuis quelques années, je me suis lancé dans la production
-            et composition de morceaux.
+          Moi c&apos;est Louis, j&apos;ai 23 ans et je suis un{" "}
+          <span>développeur web front-end</span> et <span>intégrateur web</span>{" "}
+          diplômé d&apos;un Master Développemet Web à Ynov Campus Aix (BAC+5).
+          <br />
+          Depuis tout petit, j&apos;ai toujours été attiré par
+          l&apos;informatique et les technologies de l&apos;information.
+          J&apos;aime créer des sites web incroyables et améliorer les
+          expériences utilisateur. En plus de ça, je suis également passionné
+          par la musique 🎶, l&apos;astronomie 🚀 et l&apos;art 🎨.
           </p>
         </div>
 
-        <h3> 🌌 En ce qui concerne l&apos;astronomie</h3>
-        <div
-          className={styles.content}
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <Image src={jupiter} alt="jupiter" />
-          <p data-aos="fade-up" data-aos-duration="1000">
-            J&apos;aime passer des heures à contempler les étoiles et les
-            galaxies dans le ciel nocturne. Je suis fasciné par les mystères de
-            l&apos;univers et j&apos;adore en apprendre toujours plus sur notre
-            place dans l&apos;espace.
-          </p>
-        </div>
-        <h3>🎨 Et enfin l&apos;art</h3>
-        <div
-          className={styles.content}
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <Image src={vangogh} alt="vangogh" className="vangogh" />
-          <p data-aos="fade-up" data-aos-duration="1000">
-            J&apos;aime l&apos;art sous toutes ses formes. J&apos;apprécie
-            l&apos;art classique ainsi que l&apos;art contemporain, et je
-            m&apos;inspire de toutes sortes de mouvements artistiques pour mes
-            projets de développement web.
-          </p>
-        </div>
+      
         <p
           data-aos="fade-up"
           data-aos-duration="1000"
