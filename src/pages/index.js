@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
 import Image from "next/image";
-import solution from "../assets/solution.jpg";
+import solution from "../assets/solution.png";
 import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -13,11 +13,9 @@ import {
   faHeadset,
   faPaintBrush,
   faWrench,
-  faPlus,
-  faArrowRight
+  faBookOpen,
+  faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
-import { faWindows } from "@fortawesome/free-brands-svg-icons";
-
 import AOS from "aos";
 import Link from "next/link";
 
@@ -43,13 +41,6 @@ export default function Home() {
           <h1 data-aos="fade-right" data-aos-duration="1000">
             Transformez vos idées en réalité numérique
           </h1>
-          <Image
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            src={solution}
-            alt="solution"
-            className={styles.homeImg}
-          />
         </section>
         <section className={styles.cv} data-aos="fade-up">
           <div className={styles.leftside}>
@@ -61,7 +52,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faGlobe} />
                   </div>
                   <div className={styles.text}>
-                    <h4>Développement d'applications web</h4>
+                    <h4>Développement de site web</h4>
                   </div>
                 </div>
               </div>
@@ -108,24 +99,28 @@ export default function Home() {
               <div className={styles.box}>
                 <div className={styles.content}>
                   <div className={styles.icon}>
-                    <FontAwesomeIcon icon={faWindows} />
+                    <FontAwesomeIcon icon={faBookOpen} />
                   </div>
                   <div className={styles.text}>
-                    <h4>Formations Windows</h4>
+                    <h4>Formations informatiques</h4>
                   </div>
                 </div>
               </div>
             </div>
-            <Link className={styles.moreButton}
-              href="/"
-            >
+            <Link className={styles.moreButton} href="/pages/page-presta">
               En savoir plus
               <FontAwesomeIcon icon={faArrowRight} />
             </Link>
           </div>
           <span className={styles.separator}></span>
           <div className={styles.rightside}>
-
+            <Image
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              src={solution}
+              alt="solution"
+              className={styles.homeImg}
+            />
           </div>
         </section>
         <Footer />

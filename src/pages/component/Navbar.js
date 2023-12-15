@@ -58,8 +58,8 @@ export default function Navbar() {
           Infos{" "}
         </Link>{" "}
         <Link
-          href="/pages/page-project"
-          className={isActive("/pages/page-project")}
+          href="/pages/page-presta"
+          className={isActive("/pages/page-presta")}
         >
           {" "}
           Prestations{" "}

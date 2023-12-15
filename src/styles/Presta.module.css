@@ -1,0 +1,50 @@
+.project h3 {
+    font-size: 55px;
+    font-weight: bold;
+    padding: 1% 8%;
+    color: #3D94B2;
+}
+
+.wrapper {
+    height: fit-content;
+    padding: 4em 8% 8% 8%;
+    display: grid;
+    grid-template-areas: 
+    ". .";
+    grid-gap: 30px;
+}
+
+
+.card {
+    height: 250px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #FDF5E3;
+    border-radius: 8px;
+    border: 2px #3D94B2 solid;
+}
+
+.card img {
+    height: 200px;
+    width: auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 5px;
+}
+
+.description h4{
+    color: #8D0801;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.description p {
+    color: #000C18;
+    font-size: 17px;
+}

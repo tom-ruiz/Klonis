@@ -7,15 +7,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import AOS from "aos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faDisplay,
-  faGlobe,
-  faHeadset,
-  faPaintBrush,
-  faWrench,
-  faArrowsRotate,
-} from "@fortawesome/free-solid-svg-icons";
-import { faWindows } from "@fortawesome/free-brands-svg-icons";
+import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 import louis from "../../assets/info/louis.png";
 import tom from "../../assets/info/tom.png";
 
@@ -44,13 +36,13 @@ export default function PageInfo() {
             <div className={styles.flipCard}>
               <button
                 className={styles.turnButton}
-                onClick={() => handleRotate("plandevens")}
+                onClick={() => handleRotate("tom")}
               >
                 <FontAwesomeIcon icon={faArrowsRotate} />
               </button>
               <div
                 className={`${styles.flipCardInner} ${
-                  isRotated["plandevens"] ? styles.rotate : ""
+                  isRotated["tom"] ? styles.rotate : ""
                 }`}
               >
                 <div className={styles.flipCardFront}>
@@ -58,12 +50,14 @@ export default function PageInfo() {
                 </div>
                 <div className={styles.flipCardBack}>
                   <h1>Co-Fondateur</h1>
-                  <p>React / Sass / API Google</p>
+                  <p>
+                    HTML / CSS / JavaScript / React & Next / Figma / Photoshop
+                  </p>
                   <Link
                     target="_blank"
-                    href="https://www.linkedin.com/in/louis-herve/"
+                    href="https://www.linkedin.com/in/tom-ruiz54/"
                   >
-                    https://www.linkedin.com/in/louis-herve/
+                    https://www.linkedin.com/in/tom-ruiz
                   </Link>
                 </div>
               </div>
@@ -74,13 +68,13 @@ export default function PageInfo() {
             <div className={styles.flipCard}>
               <button
                 className={styles.turnButton}
-                onClick={() => handleRotate("plandevens")}
+                onClick={() => handleRotate("louis")}
               >
                 <FontAwesomeIcon icon={faArrowsRotate} />
               </button>
               <div
                 className={`${styles.flipCardInner} ${
-                  isRotated["plandevens"] ? styles.rotate : ""
+                  isRotated["louis"] ? styles.rotate : ""
                 }`}
               >
                 <div className={styles.flipCardFront}>
@@ -88,12 +82,12 @@ export default function PageInfo() {
                 </div>
                 <div className={styles.flipCardBack}>
                   <h1>Co-Fondateur</h1>
-                  <p>React / Sass / API Google</p>
+                  <p>C# .NET / ASP.NET / SQL / Entity Framework / XUnit</p>
                   <Link
                     target="_blank"
                     href="https://www.linkedin.com/in/louis-herve/"
                   >
-                    https://www.linkedin.com/in/louis-herve/
+                    https://www.linkedin.com/in/louis-herve
                   </Link>
                 </div>
               </div>
@@ -105,24 +99,30 @@ export default function PageInfo() {
             data-aos-duration="1000"
             className={styles.contentP}
           >
-            En tant que développeur web et intégrateur web 👨‍💻, je suis très
-            compétent dans les langages HTML, CSS, JavaScript, et je suis
-            constamment à la recherche de nouvelles technologies et de nouvelles
-            techniques pour améliorer mes compétences. Je suis également très
-            curieux et toujours prêt à relever de nouveaux défis. <br />
-            Bref, si vous cherchez quelqu&apos;un de{" "}
-            <span data-aos="flip-up">fun</span>,{" "}
-            <span data-aos="flip-up">passionné</span> et{" "}
-            <span data-aos="flip-up">compétent</span> pour vos projets de
-            développement web et d&apos;intégration web, ne cherchez pas plus
-            loin que moi ! <br /> 🤘
+            Salut, moi c'est Tom et je suis titulaire d'un Master Expert en
+            développement web (BAC +5).
+            <br /> Spécialisé dans le{" "}
+            <span data-aos="flip-up">domaine du web et du design</span>, je suis
+            constamment en quête de nouvelles technologies et de techniques
+            innovantes pour enrichir mes compétences.
+            <br /> Ma curiosité et ma volonté de relever de nouveaux défis font
+            de moi un atout majeur pour vous accompagner dans la{" "}
+            <span data-aos="flip-up">
+              recherche du design de vos projet
+            </span>{" "}
+            jusqu'à l'intégration dans vos projets. Je propose aussi des
+            <span data-aos="flip-up">formations</span> ainsi que des conseils
+            pour rendre votre approche de certains logiciels{" "}
+            <span data-aos="flip-up">informatiques plus accessible (Windows et Mac).</span>{" "}
+            N'hésitez pas à me contacter pour discuter de vos besoins ou pour
+            explorer ensemble de nouvelles possibilités.
           </p>
           <p
             data-aos="fade-up"
             data-aos-duration="1000"
             className={styles.contentP}
           >
-            Salut, je suis Louis, titulaire d'une licence professionnelle (BAC +
+            Salut, je suis Louis, titulaire d'une licence professionnelle en informatique (BAC +
             3) et je me spécialise dans la conception <br />
             <span data-aos="flip-up"> d'applications web et bureautiques.</span>
             <br />
