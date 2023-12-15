@@ -7,8 +7,8 @@
 }
 
 @font-face {
-  font-family: Satisfy;
-  src: url('../assets/Satisfy/Satisfy-Regular.ttf');
+  font-family: Josefin;
+  src: url('../assets/Josefin/Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
 }
 
 
@@ -26,18 +26,20 @@ body {
   background-color: $color-black;
 }
 
+::-webkit-scrollbar {
+  display: none;
+  }
+
 h1,
 h2 {
-  font-family: "Satisfy";
+  font-family: "Josefin";
+  font-weight: 200;
   color: $color-white;
 }
 
-h1 {
-  text-shadow: 5px 5px #8D0801;
-}
-
 h3 {
-  font-weight: 500;
+  font-family: "Josefin";
+  font-weight: bold;
   color: $color-blue-sry;
 
   @media screen and (min-width: 768px) {
@@ -53,14 +55,15 @@ h4 {
 p {
   font-weight: 300;
   font-size: 20px;
-color: $color-white;
+  color: $color-white;
+
   @media screen and (max-width: 768px) {
     font-size: $font-p-sm;
   }
 }
 
 .navmain {
-  height: fit-content;
+  height: 20vh;
   padding: 1.5rem 0;
   width: 100%;
   display: flex;
@@ -68,7 +71,7 @@ color: $color-white;
   align-items: center;
   flex-direction: column;
   position: relative;
-  background-color: $color-black;
+  background-color: transparent;
 }
 
 .responsiveMenu {
@@ -101,7 +104,7 @@ nav {
   gap: 50px;
   justify-content: flex-end;
   align-items: center;
-  padding: 3rem 5rem 0 5rem;
+  padding: 0 5rem 0 5rem;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -111,6 +114,7 @@ nav {
     display: none;
   }
 }
+
 
 .menuOpen {
   display: flex;
@@ -138,12 +142,14 @@ nav a {
   text-decoration: none;
   color: $color-white;
   display: flex;
-
+  font-family: "Josefin";
 }
 
 
 nav a:first-child {
   margin-right: auto;
+  font-weight: 200;
+
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -151,6 +157,7 @@ nav a:first-child {
 }
 
 nav a:not(:first-child) {
+  font-family: "Jost";
   transition: padding-bottom 0.2s;
 }
 
@@ -182,9 +189,9 @@ nav a:last-child:hover {
   justify-content: center;
   align-items: center;
   margin-top: auto;
-  background-color: $color-red;
+  background-color: $color-white;
   height: 5rem;
-  color: $color-white;
+  color: $color-red;
   gap: 10%;
 }
 
@@ -196,15 +203,7 @@ nav a:last-child:hover {
   width: fit-content;
   outline: none;
   text-decoration: none;
-  color: $color-white;
-
-  &:first-child {
-    color: $color-blue-sry;
-  }
-
-  &:last-child {
-    color: $color-orange;
-  }
+  color: $color-black;
 }
 
 .home {
@@ -273,116 +272,3 @@ nav a:last-child:hover {
   }
 }
 
-
-// .content {
-//   position: absolute;
-//   top: 50%;
-//   left: 19%;
-//   transform: translate(-50%, -50%);
-//   height: 160px;
-//   overflow: hidden;
-//   font-family: 'Lato', sans-serif;
-//   font-size: 35px;
-//   line-height: 40px;
-//   color: #ecf0f1;
-
-//   &__container {
-//     font-weight: 600;
-//     overflow: hidden;
-//     height: 40px;
-//     padding: 0 40px;
-
-//     &:before {
-//       content: '[';
-//       left: 0;
-//     }
-
-//     &:after {
-//       content: ']';
-//       position: absolute;
-//       right: 0;
-//     }
-
-//     &:after,
-//     &:before {
-//       position: absolute;
-//       top: 0;
-
-//       color: $color-grey-dark;
-//       font-size: 42px;
-//       line-height: 40px;
-
-//       -webkit-animation-name: opacity;
-//       -webkit-animation-duration: 1s;
-//       -webkit-animation-iteration-count: infinite;
-//       animation-name: opacity;
-//       animation-duration: 1s;
-//       animation-iteration-count: infinite;
-//     }
-
-//     &__text {
-//       display: inline;
-//       float: left;
-//       margin: 0;
-//     }
-
-//     &__list {
-//       margin-top: 0;
-//       text-align: left;
-//       list-style: none;
-//       -webkit-animation-name: change;
-//       -webkit-animation-duration: 8s;
-//       -webkit-animation-iteration-count: infinite;
-//       animation-name: change;
-//       animation-duration: 8s;
-//       animation-iteration-count: infinite;
-
-//       &__item {
-//         line-height: 40px;
-//         margin: 0;
-//         color: $color-blue-sry;
-//         font-weight: 400;
-//       }
-//     }
-//   }
-// }
-
-// @keyframes opacity {
-
-//   0%,
-//   100% {
-//     opacity: 0;
-//   }
-
-//   50% {
-//     opacity: 1;
-//   }
-// }
-
-// @keyframes change {
-
-//   0%,
-//   12.66%,
-//   100% {
-//     transform: translate3d(0, 0, 0);
-//   }
-
-//   16.66%,
-//   29.32%,
-//   83.3%,
-//   95.96% {
-//     transform: translate3d(0, -25%, 0);
-//   }
-
-//   33.32%,
-//   45.98% {
-//     transform: translate3d(0, -50%, 0);
-//   }
-
-//   49.98%,
-//   62.64%,
-//   66.64%,
-//   79.3% {
-//     transform: translate3d(0, -75%, 0);
-//   }
-// }

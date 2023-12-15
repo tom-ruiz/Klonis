@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../assets/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useState } from "react";
@@ -44,10 +43,7 @@ export default function Navbar() {
         <FontAwesomeIcon icon={faBars} />
       </button>
       <nav className={`${isOpen["menu"] ? "menuOpen" : ""}`}>
-        <Link href="/">
-          {" "}
-          <Image src={logo} alt="logo" width={46} height={56} />{" "}
-        </Link>{" "}
+        <Link href="/"> KLONIS</Link>{" "}
         <Link
           href="/"
           className={`${isActive("/")} accueilName ${
@@ -63,10 +59,10 @@ export default function Navbar() {
         </Link>{" "}
         <Link
           href="/pages/page-project"
-          className={isActive("pages/page-project")}
+          className={isActive("/pages/page-project")}
         >
           {" "}
-          Projets{" "}
+          Prestations{" "}
         </Link>{" "}
         <Link href="/pages/page-contact"> Contact </Link>{" "}
       </nav>
