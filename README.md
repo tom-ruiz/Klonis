@@ -1,4 +1,4 @@
-Bienvenue sur le github du portfolio de Tom Rui !
+Bienvenue sur le github du site web de Klonis !
 
 ## Pour commencer
 
