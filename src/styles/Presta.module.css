@@ -17,6 +17,7 @@
 @media screen and (max-width: 768px) {
     .project h3 {
         font-size: 40px;
+        text-align: center;
     }
     
     .wrapper {

@@ -113,8 +113,8 @@ nav {
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    z-index: 10000;
-    background-color: white;
+    z-index: 1000;
+    background-color: $color-white;
     padding: 3rem 5rem;
     display: none;
   }
@@ -126,7 +126,7 @@ nav {
 }
 
 .bgwhite {
-  background-color: white;
+  background-color: $color-white;
 }
 
 .accueilName {

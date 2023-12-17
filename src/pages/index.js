@@ -38,6 +38,10 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar />
         <section className={styles.home}>
+          {" "}
+          <h1 className={styles.klonis} data-aos="fade-right" data-aos-duration="500">
+            KLONIS
+          </h1>
           <h1 data-aos="fade-right" data-aos-duration="1000">
             Transformez vos idées en réalité numérique
           </h1>

@@ -163,6 +163,13 @@
   color: #3D94B2;
 }
 
+@media screen and (max-width: 768px) {
+  .titles {
+    text-align: center;
+  }
+}
+
+
 
 .flipCardFront,
 .flipCardBack {
