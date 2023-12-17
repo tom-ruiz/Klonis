@@ -42,9 +42,7 @@ export default function PageInfo() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
                 volutpat arcu. Phasellus faucibus nibh sit amet quam fringilla,
                 nec tincidunt nunc dapibus. Nulla et molestie quam, a egestas
-                neque. Quisque volutpat porttitor scelerisque. Phasellus nec
-                mollis diam, et vestibulum nunc. Sed iaculis velit in mi rutrum
-                ultricies.
+                neque.
               </p>
             </div>
           </div>
@@ -54,11 +52,7 @@ export default function PageInfo() {
               <h4>Développement d'applications bureau</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-                volutpat arcu. Phasellus faucibus nibh sit amet quam fringilla,
-                nec tincidunt nunc dapibus. Nulla et molestie quam, a egestas
-                neque. Quisque volutpat porttitor scelerisque. Phasellus nec
-                mollis diam, et vestibulum nunc. Sed iaculis velit in mi rutrum
-                ultricies.
+                volutpat arcu.
               </p>
             </div>
           </div>
@@ -70,9 +64,7 @@ export default function PageInfo() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
                 volutpat arcu. Phasellus faucibus nibh sit amet quam fringilla,
                 nec tincidunt nunc dapibus. Nulla et molestie quam, a egestas
-                neque. Quisque volutpat porttitor scelerisque. Phasellus nec
-                mollis diam, et vestibulum nunc. Sed iaculis velit in mi rutrum
-                ultricies.^
+                neque.
 
               </p>
             </div>
@@ -85,9 +77,7 @@ export default function PageInfo() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
                 volutpat arcu. Phasellus faucibus nibh sit amet quam fringilla,
                 nec tincidunt nunc dapibus. Nulla et molestie quam, a egestas
-                neque. Quisque volutpat porttitor scelerisque. Phasellus nec
-                mollis diam, et vestibulum nunc. Sed iaculis velit in mi rutrum
-                ultricies.
+                neque.
               </p>
             </div>
           </div>
@@ -99,9 +89,7 @@ export default function PageInfo() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
                 volutpat arcu. Phasellus faucibus nibh sit amet quam fringilla,
                 nec tincidunt nunc dapibus. Nulla et molestie quam, a egestas
-                neque. Quisque volutpat porttitor scelerisque. Phasellus nec
-                mollis diam, et vestibulum nunc. Sed iaculis velit in mi rutrum
-                ultricies.
+                neque.
               </p>
             </div>
           </div>
@@ -113,9 +101,7 @@ export default function PageInfo() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
                 volutpat arcu. Phasellus faucibus nibh sit amet quam fringilla,
                 nec tincidunt nunc dapibus. Nulla et molestie quam, a egestas
-                neque. Quisque volutpat porttitor scelerisque. Phasellus nec
-                mollis diam, et vestibulum nunc. Sed iaculis velit in mi rutrum
-                ultricies.
+                neque
               </p>
             </div>
           </div>

@@ -14,8 +14,8 @@
 
 
 .homeImg {
-  width: auto;
-  height: 600px;
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -44,6 +44,12 @@
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .home h1 {
+    font-size: 3rem;
+  }
+}
+
 
 .cv {
   background-color: #8D0801;
@@ -60,6 +66,7 @@
 
 @media screen and (max-width: 768px) {
   .cv {
+    padding: 6% 6% 6% 6%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -78,6 +85,13 @@
 
 .leftside h3 {
   padding-bottom: 4%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .leftside h3 {
+    padding-bottom: 6%;
+  }
 }
 
 .rightside {
@@ -229,13 +243,20 @@
   font-weight: 300;
   text-align: center;
   align-items: center;
-  width: 30%;
+  width: 50%;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
   transition: width 0.5s ease-in-out,
     box-shadow 0.2s ease-in-out;
   gap: 20px;
   box-shadow: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .moreButton {
+    width: 100%;
+  }
 }
 
 .moreButton svg {

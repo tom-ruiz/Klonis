@@ -31,7 +31,7 @@ export default function PageInfo() {
       <section>
         <h3 className={styles.titles}>Qui sommes-nous ?</h3>
         <div className={styles.main}>
-          <div className={styles.gridContent}>
+          <div className={`${styles.gridContent} ${styles.tom}`}>
             <h2>Tom Ruiz</h2>
             <div className={styles.flipCard}>
               <button
@@ -63,7 +63,7 @@ export default function PageInfo() {
               </div>
             </div>
           </div>
-          <div className={styles.gridContent}>
+          <div className={`${styles.gridContent} ${styles.louis}`}>
             <h2>Louis Hervé</h2>
             <div className={styles.flipCard}>
               <button
@@ -97,7 +97,7 @@ export default function PageInfo() {
           <p
             data-aos="fade-up"
             data-aos-duration="1000"
-            className={styles.contentP}
+            className={`${styles.contentP} ${styles.tomText}`}
           >
             Salut, moi c'est Tom et je suis titulaire d'un Master Expert en
             développement web (BAC +5).
@@ -120,7 +120,7 @@ export default function PageInfo() {
           <p
             data-aos="fade-up"
             data-aos-duration="1000"
-            className={styles.contentP}
+            className={`${styles.contentP} ${styles.louisText}`}
           >
             Salut, je suis Louis, titulaire d'une licence professionnelle en informatique (BAC +
             3) et je me spécialise dans la conception <br />

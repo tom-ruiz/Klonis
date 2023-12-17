@@ -4,14 +4,21 @@
   grid-column-gap: 8%;
   display: grid;
   grid-template-areas:
-    ". ."
-    ". .";
+    "tom louis"
+    "tomText louisText";
 
 }
 
 @media screen and (max-width: 768px) {
   .main {
-    padding: 0 10% 10% 10%;
+    padding: 10%;
+    grid-template-areas:
+      "tom"
+      "tomText"
+      "louis"
+      "louisText";
+    gap: 2%;
+
   }
 
   .main h3 {
@@ -59,6 +66,14 @@
   line-height: 42px;
 }
 
+@media screen and (max-width: 768px) {
+  .contentP {
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
 .contentEnd {
   margin: 4em 0;
   text-align: center !important;
@@ -67,6 +82,14 @@
   color: #FDF5E3;
   padding: 0 22%;
   line-height: 44px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .contentEnd {
+    padding: 20% 10% 0% 10%;
+  }
+
 }
 
 .main span {
@@ -135,9 +158,8 @@
 }
 
 
-.titles{
+.titles {
   padding: 1% 8%;
-  font-size: 55px;
   color: #3D94B2;
 }
 
@@ -175,10 +197,19 @@
   font-weight: bold;
 }
 
-.flipCardBack p, .flipCardBack a {
+.flipCardBack p,
+.flipCardBack a {
   color: black;
   font-size: 20px;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+  .flipCardBack p,
+  .flipCardBack a {
+    font-size: 18px;
+  }
 }
 
 .turnButton {
@@ -209,4 +240,20 @@
 
 .rotate {
   transform: rotateY(180deg);
+}
+
+.tom {
+  grid-area: tom;
+}
+
+.louis {
+  grid-area: louis;
+}
+
+.tomText {
+  grid-area: tomText;
+}
+
+.louisText {
+  grid-area: louisText;
 }

@@ -1,11 +1,13 @@
 .section {
-    height: 90vh;
+    height: fit-content;
+    padding-bottom: 5%;
 }
 
 
 .mail a {
     color: #FDF5E3;
     transition: color .4s;
+
 }
 
 .mail a:hover {

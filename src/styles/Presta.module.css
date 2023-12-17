@@ -9,10 +9,23 @@
     height: fit-content;
     padding: 4em 8% 8% 8%;
     display: grid;
-    grid-template-areas: 
-    ". .";
+    grid-template-areas:
+        ". .";
     grid-gap: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .project h3 {
+        font-size: 40px;
+    }
+    
+    .wrapper {
+        grid-template-areas:
+            ".";
+    }
+
+}
+
 
 
 .card {
@@ -31,6 +44,13 @@
     width: auto;
 }
 
+@media screen and (max-width: 768px) {
+    .card img {
+        height: 100px;
+    }
+
+}
+
 .description {
     display: flex;
     flex-direction: column;
@@ -38,7 +58,7 @@
     gap: 5px;
 }
 
-.description h4{
+.description h4 {
     color: #8D0801;
     font-size: 26px;
     font-weight: bold;
@@ -47,4 +67,26 @@
 .description p {
     color: #000C18;
     font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .description {
+
+        padding: 0 10px;
+     
+    }
+    
+
+    .description h4 {
+      
+        font-size: 22px;
+        
+    }
+
+    .description p {
+        font-size: 15px;
+    }
+
+
 }
