@@ -37,12 +37,9 @@ export default function PageInfo() {
           <div className={styles.card}>
             <Image src={devweb} alt="solution" className={styles.cardImg} />
             <div className={styles.description}>
-              <h4>Développement de site web</h4>
+              <h4>Développement de sites web</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-                volutpat arcu. Phasellus faucibus nibh sit amet quam fringilla,
-                nec tincidunt nunc dapibus. Nulla et molestie quam, a egestas
-                neque.
+                Si vous souhaitez avoir un site vitrine, de gestion d'entreprise ou de réservations par exemple
               </p>
             </div>
           </div>
@@ -51,8 +48,7 @@ export default function PageInfo() {
             <div className={styles.description}>
               <h4>Développement d'applications bureau</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-                volutpat arcu.
+                Si vous optez pour une application de bureau personnelle ou d'entreprise avec des besoins spécifiques
               </p>
             </div>
           </div>
@@ -61,11 +57,7 @@ export default function PageInfo() {
             <div className={styles.description}>
               <h4>Dépannage informatique</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-                volutpat arcu. Phasellus faucibus nibh sit amet quam fringilla,
-                nec tincidunt nunc dapibus. Nulla et molestie quam, a egestas
-                neque.
-
+                Si vous voulez supprimer les virus de votre ordinateur, installer de nouveaux logiciels ou obtenir une assistance technique
               </p>
             </div>
           </div>
@@ -74,10 +66,7 @@ export default function PageInfo() {
             <div className={styles.description}>
               <h4>Conseils informatiques</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-                volutpat arcu. Phasellus faucibus nibh sit amet quam fringilla,
-                nec tincidunt nunc dapibus. Nulla et molestie quam, a egestas
-                neque.
+                Si vous envisagez d'acheter du matériel informatique que ce soit un PC bureautique ou gamer par exemple
               </p>
             </div>
           </div>
@@ -86,22 +75,16 @@ export default function PageInfo() {
             <div className={styles.description}>
               <h4>Expertise design applicatif</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-                volutpat arcu. Phasellus faucibus nibh sit amet quam fringilla,
-                nec tincidunt nunc dapibus. Nulla et molestie quam, a egestas
-                neque.
+                Si vous réclamez une expertise de développement pour vos applications afin de monter en compétences en UX et UI
               </p>
             </div>
           </div>
           <div className={styles.card}>
             <Image src={formation} alt="solution" className={styles.cardImg} />
             <div className={styles.description}>
-              <h4>Formations informatique</h4>
+              <h4>Formations informatiques</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-                volutpat arcu. Phasellus faucibus nibh sit amet quam fringilla,
-                nec tincidunt nunc dapibus. Nulla et molestie quam, a egestas
-                neque
+                Si vous désirez des formations informatiques orientés sur Windows afin de prendre en main votre ordinateur et d'opter pour les bonnes pratiques afin d'éviter les virus
               </p>
             </div>
           </div>

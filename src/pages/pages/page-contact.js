@@ -107,6 +107,9 @@ export default function PageInfo() {
         <p className={styles.mail}>
           <Link href="mailto:klonispro@protonmail.com">klonispro@protonmail.com</Link>
         </p>
+        <p>
+          Aix en Provence
+        </p>
       </section>
       <Footer />
     </>

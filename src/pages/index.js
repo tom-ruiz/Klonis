@@ -56,7 +56,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faGlobe} />
                   </div>
                   <div className={styles.text}>
-                    <h4>Développement de site web</h4>
+                    <h4>Développement de sites web</h4>
                   </div>
                 </div>
               </div>
