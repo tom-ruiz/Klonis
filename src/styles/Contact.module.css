@@ -10,12 +10,12 @@
 }
 
 @media screen and (max-width: 768px) {
-.mail{
-    padding: 40px 0;
-}
+    .mail {
+        padding: 40px 0;
+    }
 
-    .mail a  {
-        font-size: 30px;
+    .mail a {
+        font-size: 24px;
         margin-bottom: 100px;
     }
 }
@@ -82,8 +82,14 @@
 .gridContent img {
     object-fit: cover;
     height: 100%;
-
 }
+
+@media screen and (max-width: 382px) {
+    .gridContent img {
+        width: 100%;
+    }
+}
+
 
 .gridContent h2 {
     background-color: #3D94B2;
@@ -178,7 +184,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .flipCardBack a  {
+    .flipCardBack a {
         font-size: 17px;
     }
 }
