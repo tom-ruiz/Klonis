@@ -2,7 +2,7 @@
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
-  assetPrefix: isProd ? '/piklaklonis/' : '',
+  assetPrefix: isProd ? '/klonis/' : '',
   images: {
     unoptimized: true,
   },

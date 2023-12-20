@@ -1,6 +1,11 @@
-.mention{
+.mention {
     display: flex;
     flex-direction: column;
     padding: 4%;
     gap: 15px;
+}
+
+.mention h1 {
+    text-decoration: underline #8D0801;
+    font-weight: bold;
 }

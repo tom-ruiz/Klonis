@@ -16,8 +16,9 @@ export default function PageInfo() {
           la Confiance dans l’Économie Numérique, nous vous informons que
           l&apos;éditeur du site est
           <br />
-          Tom Ruiz <br />
-          tomruiz2611&gmail.com
+          Tom Ruiz et Louis Hervé
+          <br />
+          klonispro@protonmail.com
           <br />
           13090 Aix-En-Provence
           <br />
@@ -34,10 +35,11 @@ export default function PageInfo() {
         <p>
           {" "}
           Le contenu du site (textes, images, vidéos, logos, etc.) est la
-          propriété exclusive de Tom Ruiz. Toute reproduction, représentation,
-          modification, adaptation ou exploitation, totale ou partielle, du site
-          ou de son contenu, par quelque procédé que ce soit, sans
-          l&apos;autorisation préalable de Tom Ruiz, est strictement interdite.{" "}
+          propriété exclusive de Tom Ruiz ET Louis Hervé. Toute reproduction,
+          représentation, modification, adaptation ou exploitation, totale ou
+          partielle, du site ou de son contenu, par quelque procédé que ce soit,
+          sans l&apos;autorisation préalable de Tom Ruiz ET Louis Hervé, est
+          strictement interdite.{" "}
         </p>
         <h1> Protection des données personnelles </h1>
         <p>
@@ -50,9 +52,8 @@ export default function PageInfo() {
           sur la Protection des Données (RGPD), les utilisateurs disposent
           d&apos;un droit d&apos;accès, de rectification, d&apos;opposition et
           de suppression de leurs données personnelles. Pour exercer ces droits,
-          l&apos;utilisateur peut contacter [Nom de l&apos;entreprise ou du
-          propriétaire] à l&apos;adresse e-mail suivante : [Adresse e-mail de
-          contact].{" "}
+          l&apos;utilisateur peut contacter Klonis à l&apos;adresse e-mail suivante :
+          klonispro@protonmail.com
         </p>
         <h1> Cookies </h1>
         <p>
