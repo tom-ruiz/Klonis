@@ -1,11 +1,13 @@
 {
-  "name": "piklaklonis",
+  "name": "klonis",
   "version": "0.1.0",
   "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "deploy": "vercel --prod",
+    "preprod": "vercel deploy",
     "lint": "next lint",
     "export": "next export"
   },
