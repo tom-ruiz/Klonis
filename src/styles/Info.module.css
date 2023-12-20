@@ -84,8 +84,8 @@
 }
 
 .main span {
-  background-color: #FDF5E3;
-  color: #000C18;
+  color: #FDF5E3;
+  font-weight: bold;
   padding: 0 5px;
   border-radius: 8px;
 }
