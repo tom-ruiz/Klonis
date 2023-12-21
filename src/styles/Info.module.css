@@ -30,11 +30,6 @@
   }
 }
 
-.main p {
-  font-size: 36px;
-  font-weight: 400;
-  text-align: justify;
-}
 
 @media screen and (max-width: 768px) {
   .main p {
@@ -51,29 +46,33 @@
 
 .contentP {
   margin-top: 4em;
-  text-align: center !important;
-  font-weight: 300 !important;
-  font-size: 26px !important;
+  text-align: center;
+  font-weight: 300;
+  font-size: 26px ;
   color: #DE7E73;
   padding: 0 30px;
   line-height: 42px;
 }
 
+
+.contentP span{
+  font-weight: bold;
+  color: #FDF5E3;
+}
+
 .contentEnd {
   margin: 4em 0;
-  text-align: center !important;
-  font-weight: 300 !important;
-  font-size: 32px !important;
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
   color: #FDF5E3;
   padding: 0 22%;
   line-height: 44px;
 }
 
-.main span {
-  background-color: #FDF5E3;
-  color: #000C18;
-  padding: 0 5px;
-  border-radius: 8px;
+.contentEnd span{
+  font-weight: bold;
+  color: #FDF5E3;
 }
 
 
