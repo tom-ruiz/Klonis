@@ -131,7 +131,7 @@ export default function PageInfo() {
             d'informatique depuis mon plus jeune âge, je propose également des{" "}
             <span data-aos="flip-up">formations</span> pour vous aider à mieux
             utiliser votre ordinateur sous Windows. En cas de problème, je suis
-            là pour vous <span data-aos="flip-up">dépanner</span> , que ce soit
+            là pour vous <span data-aos="flip-up">dépanner</span>, que ce soit
             en éliminant les virus ou vous{" "}
             <span data-aos="flip-up">conseiller</span> pour vos futurs achats
             informatiques, que ce soit un PC gamer ou un PC de bureau. Mon
