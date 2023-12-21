@@ -38,6 +38,10 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar />
         <section className={styles.home}>
+          {" "}
+          <h1 className={styles.klonis} data-aos="fade-right" data-aos-duration="500">
+            KLONIS
+          </h1>
           <h1 data-aos="fade-right" data-aos-duration="1000">
             Transformez vos idées en réalité numérique
           </h1>
@@ -46,17 +50,17 @@ export default function Home() {
           <div className={styles.leftside}>
             <h3>Nos prestations</h3>
             <div className={styles.container}>
-              <div className={styles.box}>
+              <div className={styles.box} data-aos="fade-right" data-aos-duration="1000">
                 <div className={styles.content}>
                   <div className={styles.icon}>
                     <FontAwesomeIcon icon={faGlobe} />
                   </div>
                   <div className={styles.text}>
-                    <h4>Développement de site web</h4>
+                    <h4>Développement de sites web</h4>
                   </div>
                 </div>
               </div>
-              <div className={styles.box}>
+              <div className={styles.box} data-aos="fade-right" data-aos-duration="1000">
                 <div className={styles.content}>
                   <div className={styles.icon}>
                     <FontAwesomeIcon icon={faDisplay} />
@@ -66,7 +70,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className={styles.box}>
+              <div className={styles.box} data-aos="fade-right" data-aos-duration="1000">
                 <div className={styles.content}>
                   <div className={styles.icon}>
                     <FontAwesomeIcon icon={faWrench} />
@@ -76,7 +80,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className={styles.box}>
+              <div className={styles.box} data-aos="fade-right" data-aos-duration="1000">
                 <div className={styles.content}>
                   <div className={styles.icon}>
                     <FontAwesomeIcon icon={faHeadset} />
@@ -86,7 +90,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className={styles.box}>
+              <div className={styles.box} data-aos="fade-right" data-aos-duration="1000">
                 <div className={styles.content}>
                   <div className={styles.icon}>
                     <FontAwesomeIcon icon={faPaintBrush} />
@@ -96,7 +100,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className={styles.box}>
+              <div className={styles.box} data-aos="fade-right" data-aos-duration="1000">
                 <div className={styles.content}>
                   <div className={styles.icon}>
                     <FontAwesomeIcon icon={faBookOpen} />
@@ -115,7 +119,7 @@ export default function Home() {
           <span className={styles.separator}></span>
           <div className={styles.rightside}>
             <Image
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-duration="1000"
               src={solution}
               alt="solution"

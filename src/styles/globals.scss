@@ -41,9 +41,10 @@ h3 {
   font-family: "Josefin";
   font-weight: bold;
   color: $color-blue-sry;
+  font-size: 55px;
 
-  @media screen and (min-width: 768px) {
-    font-size: $font-title-sm;
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
   }
 }
 
@@ -72,6 +73,10 @@ p {
   flex-direction: column;
   position: relative;
   background-color: transparent;
+
+  @media screen and (max-width: 768px) {
+    height: auto;
+  }
 }
 
 .responsiveMenu {
@@ -108,8 +113,8 @@ nav {
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    z-index: 10000;
-    background-color: white;
+    z-index: 1000;
+    background-color: $color-white;
     padding: 3rem 5rem;
     display: none;
   }
@@ -121,7 +126,7 @@ nav {
 }
 
 .bgwhite {
-  background-color: white;
+  background-color: $color-white;
 }
 
 .accueilName {
@@ -143,7 +148,11 @@ nav a {
   color: $color-white;
   display: flex;
   font-family: "Josefin";
+  @media screen and (max-width: 768px) {
+   color: $color-black;
+  }
 }
+
 
 
 nav a:first-child {
@@ -204,6 +213,10 @@ nav a:last-child:hover {
   outline: none;
   text-decoration: none;
   color: $color-black;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 
 .home {
