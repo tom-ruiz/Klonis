@@ -38,6 +38,13 @@
 }
 
 
+@media screen and (max-width: 768px) {
+  .main p {
+    font-size: 25px;
+  }
+
+}
+
 .groupContainer {
   display: flex;
   gap: 40px;
@@ -48,20 +55,16 @@
   margin-top: 4em;
   text-align: center;
   font-weight: 300;
-  font-size: 26px;
+  font-size: 26px ;
   color: #DE7E73;
   padding: 0 30px;
   line-height: 42px;
 }
 
-@media screen and (max-width: 768px) {
-  .contentP {
-    font-size: 20px;
-    text-align: justify;
-    margin: 0;
-    padding: 0;
-  }
 
+.contentP span{
+  font-weight: bold;
+  color: #FDF5E3;
 }
 
 .contentEnd {
@@ -74,20 +77,9 @@
   line-height: 44px;
 }
 
-
-@media screen and (max-width: 768px) {
-  .contentEnd {
-    font-size: 30px;
-    padding: 20% 8% 0% 8%;
-  }
-
-}
-
-.main span {
-  color: #FDF5E3;
+.contentEnd span{
   font-weight: bold;
-  padding: 0 5px;
-  border-radius: 8px;
+  color: #FDF5E3;
 }
 
 

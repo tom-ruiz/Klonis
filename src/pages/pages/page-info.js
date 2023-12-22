@@ -113,17 +113,17 @@ export default function PageInfo() {
             jusqu'à l'intégration dans vos projets. Je propose aussi des
             <span data-aos="flip-up">formations</span> ainsi que des conseils
             pour rendre votre approche de certains logiciels{" "}
-            <span data-aos="flip-up">informatiques plus accessible (Windows et Mac).</span>{" "}
-            N'hésitez pas à me contacter pour discuter de vos besoins ou pour
-            explorer ensemble de nouvelles possibilités.
+            <span data-aos="flip-up">
+              informatiques plus accessible (Windows et Mac).
+            </span>
           </p>
           <p
             data-aos="fade-up"
             data-aos-duration="1000"
             className={`${styles.contentP} ${styles.louisText}`}
           >
-            Salut, je suis Louis, titulaire d'une licence professionnelle en informatique (BAC +
-            3) et je me spécialise dans la conception <br />
+            Salut, je suis Louis, titulaire d'une licence professionnelle en
+            informatique (BAC + 3) et je me spécialise dans la conception <br />
             <span data-aos="flip-up"> d'applications web et bureautiques.</span>
             <br />
             Ma principale expertise réside dans le développement de la logique
@@ -137,10 +137,8 @@ export default function PageInfo() {
             informatiques, que ce soit un PC gamer ou un PC de bureau. Mon
             objectif est de{" "}
             <span data-aos="flip-up">
-              rendre l'informatique accessible et pratique
-            </span>{" "}
-            pour vous. N'hésitez pas à me contacter pour discuter de vos besoins
-            ou pour planifier une séance de formation personnalisée.
+              rendre l'informatique accessible et pratique.
+            </span>
           </p>
         </div>
         <p
@@ -151,7 +149,11 @@ export default function PageInfo() {
           En résumé, nous sommes deux jeunes passionnés d'informatique et nos
           compétences croisés nous permettent d'avoir une expertise logiciel
           complète que ce soit en matière de design ou de logique applicative.
-          N'hésitez pas à nous contacter pour discuter de vos besoins.
+          <br />
+          <span data-aos="flip-up">
+            {" "}
+            N'hésitez pas à nous contacter pour discuter de vos besoins.
+          </span>
         </p>
       </section>
 
