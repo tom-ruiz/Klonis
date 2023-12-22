@@ -70,7 +70,7 @@ export default function PageInfo() {
           <div className={styles.card}>
             <Image src={help} alt="solution" className={styles.cardImg} />
             <div className={styles.description}>
-              <h4>Conseils informatiques</h4>
+              <h4>Conseils d'achats informatiques</h4>
               <p>
                 Choisissez le matériel informatique idéal, que ce soit pour un
                 PC bureautique ou gamer, grâce à nos conseils.{" "}

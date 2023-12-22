@@ -86,7 +86,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faHeadset} />
                   </div>
                   <div className={styles.text}>
-                    <h4>Conseils informatiques</h4>
+                    <h4>Conseils d'achats informatiques</h4>
                   </div>
                 </div>
               </div>
