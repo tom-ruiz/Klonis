@@ -108,7 +108,7 @@ export default function PageInfo() {
           <Link href="mailto:klonispro@protonmail.com">klonispro@protonmail.com</Link>
         </p>
         <p>
-          Aix en Provence
+          Aix-En-Provence
         </p>
       </section>
       <Footer />
