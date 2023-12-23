@@ -14,7 +14,7 @@ export default function PageInfo() {
           {" "}
           Conformément aux dispositions des articles 6-III et 19 de la loi pour
           la Confiance dans l’Économie Numérique, nous vous informons que
-          l&apos;éditeur du site est
+          les éditeurs du site sont :
           <br />
           Tom Ruiz et Louis Hervé
           <br />
@@ -53,7 +53,7 @@ export default function PageInfo() {
           d&apos;un droit d&apos;accès, de rectification, d&apos;opposition et
           de suppression de leurs données personnelles. Pour exercer ces droits,
           l&apos;utilisateur peut contacter Klonis à l&apos;adresse e-mail suivante :
-          klonispro@protonmail.com
+          klonispro@protonmail.com.
         </p>
         <h1> Cookies </h1>
         <p>
