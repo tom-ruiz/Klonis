@@ -35,16 +35,16 @@ export default function PageInfo() {
         <p>
           {" "}
           Le contenu du site (textes, images, vidéos, logos, etc.) est la
-          propriété exclusive de Tom Ruiz ET Louis Hervé. Toute reproduction,
+          propriété exclusive de Tom Ruiz et Louis Hervé. Toute reproduction,
           représentation, modification, adaptation ou exploitation, totale ou
           partielle, du site ou de son contenu, par quelque procédé que ce soit,
-          sans l&apos;autorisation préalable de Tom Ruiz ET Louis Hervé, est
+          sans l&apos;autorisation préalable de Tom Ruiz et Louis Hervé, est
           strictement interdite.{" "}
         </p>
         <h1> Protection des données personnelles </h1>
         <p>
           {" "}
-          Tom Ruiz s&apos;engage à respecter la vie privée de ses utilisateurs
+          Tom Ruiz et Louis Hervé s&apos;engagent à respecter la vie privée de ses utilisateurs
           et à traiter leurs données personnelles de manière responsable. Les
           données collectées sur le site sont utilisées uniquement dans le cadre
           de la gestion du site et ne sont pas communiquées à des tiers.
@@ -69,7 +69,7 @@ export default function PageInfo() {
         <h1>Responsabilité </h1>
         <p>
           {" "}
-          Tom Ruiz décline toute responsabilité en cas d&apos;interruption du
+          Tom Ruiz et Louis Hervé déclinent toute responsabilité en cas d&apos;interruption du
           site, de problème technique ou de dommage résultant de
           l&apos;utilisation du site ou de son contenu.{" "}
         </p>
