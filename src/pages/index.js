@@ -33,7 +33,7 @@ export default function Home() {
         <title>Klonis</title>
         <meta name="description" content="Le site web de klonis" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="../klogo.ico" />
+        <link rel="icon" href="../klogo.ico" crossorigin="anonymous" />
       </Head>
       <main className={styles.main}>
         <Navbar />
