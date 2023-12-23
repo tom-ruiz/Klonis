@@ -110,7 +110,7 @@ export default function PageInfo() {
             <span data-aos="flip-up">
               recherche du design de vos projet
             </span>{" "}
-            jusqu'à l'intégration dans vos projets. Je propose aussi des
+            jusqu'à l'intégration dans vos projets. Je propose aussi des 
             <span data-aos="flip-up">formations</span> ainsi que des conseils
             pour rendre votre approche de certains logiciels{" "}
             <span data-aos="flip-up">
@@ -122,7 +122,7 @@ export default function PageInfo() {
             data-aos-duration="1000"
             className={`${styles.contentP} ${styles.louisText}`}
           >
-            Salut, je suis Louis, titulaire d'une licence professionnelle en
+            Salut, moi c'est Louis, titulaire d'une licence professionnelle en
             informatique (BAC + 3) et je me spécialise dans la conception <br />
             <span data-aos="flip-up"> d'applications web et bureautiques.</span>
             <br />
