@@ -110,7 +110,7 @@ export default function PageInfo() {
             <span data-aos="flip-up">
               recherche du design de vos projet
             </span>{" "}
-            jusqu'à l'intégration dans vos projets. Je propose aussi des 
+            jusqu'à l'intégration dans vos projets. Je propose aussi des {" "}
             <span data-aos="flip-up">formations</span> ainsi que des conseils
             pour rendre votre approche de certains logiciels{" "}
             <span data-aos="flip-up">

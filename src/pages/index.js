@@ -42,9 +42,9 @@ export default function Home() {
           <h1 className={styles.klonis} data-aos="fade-right" data-aos-duration="500">
             KLONIS
           </h1>
-          <h1 data-aos="fade-right" data-aos-duration="1000">
+          <h2 data-aos="fade-up" data-aos-duration="1000">
             Transformez vos idées en réalité numérique
-          </h1>
+          </h2>
         </section>
         <section className={styles.cv} data-aos="fade-up">
           <div className={styles.leftside}>

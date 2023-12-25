@@ -55,9 +55,25 @@
   text-align: center;
 }
 
+
+.home h2 {
+  font-size: 4rem;
+  width: 100%;
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
+  .home {
+    padding: 3% 10% 7% 10%;
+  }
+
   .home h1 {
     font-size: 3rem;
+  }
+
+  .home h2 {
+    font-size: 2rem;
+    text-align: center;
   }
 }
 

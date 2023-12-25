@@ -60,6 +60,12 @@
   padding: 0 30px;
   line-height: 42px;
 }
+@media screen and (max-width: 768px) {
+  .contentP {
+    margin-top: 0;
+    padding: 0;
+  }
+}
 
 
 .contentP span{
@@ -77,12 +83,18 @@
   line-height: 44px;
 }
 
+@media screen and (max-width: 768px) {
+  .contentEnd {
+    font-size: 25px;
+    margin: 6em 0 3em 0;
+    padding: 10%;
+  }
+}
+
 .contentEnd span{
   font-weight: bold;
   color: #FDF5E3;
 }
-
-
 
 .gridContent {
   border: 2px solid #3D94B2;
@@ -103,7 +115,6 @@
   width: 100%;
 }
 
-
 .gridContent h2 {
   background-color: #3D94B2;
   color: #FDF5E3;
@@ -117,7 +128,6 @@
 .gridContent p {
   padding: 10px;
 }
-
 
 .flipCard {
   background-color: #FDF5E3;
