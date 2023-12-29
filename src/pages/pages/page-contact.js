@@ -37,7 +37,7 @@ export default function PageInfo() {
         <div className={styles.contact}>
           <div
             className={styles.gridContent}
-            data-aos="fade-right"
+            data-aos="fade-down"
             data-aos-duration="1000"
           >
             <h2>Tom Ruiz</h2>
@@ -71,7 +71,7 @@ export default function PageInfo() {
           </div>
           <div
             className={styles.gridContent}
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-duration="1000"
           >
             <h2>Louis Hervé</h2>
