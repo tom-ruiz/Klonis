@@ -100,19 +100,19 @@ export default function PageInfo() {
             className={`${styles.contentP} ${styles.tomText}`}
           >
             Salut, moi c'est Tom et je suis titulaire d'un Master Expert en
-            développement web (BAC +5).
-            <br /> Spécialisé dans le{" "}
+            développement web (BAC + 5).
+            <br /> Spécialisé dans le {" "}
             <span data-aos="flip-up">domaine du web et du design</span>, je suis
             constamment en quête de nouvelles technologies et de techniques
             innovantes pour enrichir mes compétences.
             <br /> Ma curiosité et ma volonté de relever de nouveaux défis font
-            de moi un atout majeur pour vous accompagner dans la{" "}
+            de moi un atout majeur pour vous accompagner dans la {" "}
             <span data-aos="flip-up">
               recherche du design de vos projet
-            </span>{" "}
+            </span> {" "}
             jusqu'à l'intégration dans vos projets. Je propose aussi des {" "}
             <span data-aos="flip-up">formations</span> ainsi que des conseils
-            pour rendre votre approche de certains logiciels{" "}
+            pour rendre votre approche de certains logiciels {" "}
             <span data-aos="flip-up">
               informatiques plus accessible (Windows et Mac).
             </span>
@@ -123,21 +123,21 @@ export default function PageInfo() {
             className={`${styles.contentP} ${styles.louisText}`}
           >
             Salut, moi c'est Louis, titulaire d'une licence professionnelle en
-            informatique (BAC + 3) et je me spécialise dans la conception <br />
-            <span data-aos="flip-up"> d'applications web et bureautiques.</span>
-            <br />
-            Ma principale expertise réside dans le développement de la logique
+            développement informatique (BAC + 3).
+            <br />Spécialisé dans la conception
+            <span data-aos="flip-up"> d'applications web et bureautiques</span>
+            , ma principale expertise réside dans le développement de la logique
             de vos applications et la gestion des bases de données. Passionné
             d'informatique depuis mon plus jeune âge, je propose également des{" "}
             <span data-aos="flip-up">formations</span> pour vous aider à mieux
             utiliser votre ordinateur sous Windows. En cas de problème, je suis
             là pour vous <span data-aos="flip-up">dépanner</span>, que ce soit
-            en éliminant les virus ou vous{" "}
+            en éliminant vos virus ou vous{" "}
             <span data-aos="flip-up">conseiller</span> pour vos futurs achats
             informatiques, que ce soit un PC gamer ou un PC de bureau. Mon
-            objectif est de{" "}
+            objectif est de {" "}
             <span data-aos="flip-up">
-              rendre l'informatique accessible et pratique.
+              rendre l'informatique plus accessible.
             </span>
           </p>
         </div>
